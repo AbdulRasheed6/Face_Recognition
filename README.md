@@ -37,7 +37,7 @@ Models are trained on the dataset, specifically a ResNet-50 and a SqueezeNet-Res
 
 "… we demonstrate that deep models (ResNet-50 and SENet) trained on VGGFace2, achieve state-of-the-art performance on […] benchmarks."
 
-— VGGFace2: A dataset for recognising faces across pose and age, 2017.
+— [VGGFace2: A dataset for recognising faces across pose and age, 2017](https://arxiv.org/abs/1710.08092).
 
 Specifically, the SqueezeNet-based model offers better performance in general.
 
