@@ -21,6 +21,25 @@ Face recognition is often described as a process that first involves four steps;
 A given system may have a separate module or program for each step, which was traditionally the case, or may combine some or all of the steps into a single process.
 
 
+VGGFace2 Model
+Qiong Cao, et al. from the VGG describe a follow-up work in their 2017 paper titled “VGGFace2: A dataset for recognizing faces across pose and age.”
+
+They describe VGGFace2 as a much larger dataset that they have collected for the intent of training and evaluating more effective face recognition models.
+
+"In this paper, we introduce a new large-scale face dataset named VGGFace2. The dataset contains 3.31 million images of 9131 subjects, with an average of 362.6 images for each subject. Images are downloaded from Google Image Search and have large variations in pose, age, illumination, ethnicity and profession (e.g. actors, athletes, politicians)."
+
+— VGGFace2: A dataset for recognising faces across pose and age, 2017.
+
+The paper focuses on how this dataset was collected, curated, and how images were prepared prior to modeling. Nevertheless, VGGFace2 has become the name to refer to the pre-trained models that have provided for face recognition, trained on this dataset.
+
+
+Models are trained on the dataset, specifically a ResNet-50 and a SqueezeNet-ResNet-50 model (called SE-ResNet-50 or SENet), and it is variations of these models that have been made available by the authors, along with the associated code. The models are evaluated on standard face recognition datasets, demonstrating then state-of-the-art performance.
+
+"… we demonstrate that deep models (ResNet-50 and SENet) trained on VGGFace2, achieve state-of-the-art performance on […] benchmarks."
+
+— VGGFace2: A dataset for recognising faces across pose and age, 2017.
+
+Specifically, the SqueezeNet-based model offers better performance in general.
 
 
 
