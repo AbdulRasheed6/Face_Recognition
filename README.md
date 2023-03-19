@@ -52,6 +52,7 @@ A face embedding is predicted by a given model as a 2,048 length vector. The len
 [VGGFace2: A dataset for recognising faces across pose and age, ](https://arxiv.org/abs/1710.08092) 2017.
 
 
+![resnet50](https://user-images.githubusercontent.com/59423092/226199809-c63363ec-1c57-4a49-8e1a-6d3c0ffe8be1.png)
 
 
 
