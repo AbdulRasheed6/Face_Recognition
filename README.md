@@ -28,7 +28,7 @@ They describe VGGFace2 as a much larger dataset that they have collected for the
 
 "In this paper, we introduce a new large-scale face dataset named VGGFace2. The dataset contains 3.31 million images of 9131 subjects, with an average of 362.6 images for each subject. Images are downloaded from Google Image Search and have large variations in pose, age, illumination, ethnicity and profession (e.g. actors, athletes, politicians)."
 
-— VGGFace2: A dataset for recognising faces across pose and age, 2017.
+— [VGGFace2: A dataset for recognising faces across pose and age, 2017](https://arxiv.org/abs/1710.08092).
 
 The paper focuses on how this dataset was collected, curated, and how images were prepared prior to modeling. Nevertheless, VGGFace2 has become the name to refer to the pre-trained models that have provided for face recognition, trained on this dataset.
 
