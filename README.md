@@ -9,7 +9,7 @@ Deep learning methods are able to leverage very large datasets of faces and lear
 
 "A general statement of the problem of machine recognition of faces can be formulated as follows: given still or video images of a scene, identify or verify one or more persons in the scene using a stored database of faces"
 
-— Face Recognition: A Literature Survey, 2003.
+[— Face Recognition: A Literature Survey],(https://dl.acm.org/doi/10.1145/954339.954342) 2003.
 
 Face recognition is often described as a process that first involves four steps; they are: face detection, face alignment, feature extraction, and finally face recognition.
 
