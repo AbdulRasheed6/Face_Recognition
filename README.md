@@ -37,9 +37,22 @@ Models are trained on the dataset, specifically a ResNet-50 and a SqueezeNet-Res
 
 "… we demonstrate that deep models (ResNet-50 and SENet) trained on VGGFace2, achieve state-of-the-art performance on […] benchmarks."
 
-— [VGGFace2: A dataset for recognising faces across pose and age, 2017](https://arxiv.org/abs/1710.08092).
+— [VGGFace2: A dataset for recognising faces across pose and age, ](https://arxiv.org/abs/1710.08092) 2017.
 
 Specifically, the SqueezeNet-based model offers better performance in general.
+
+"The comparison between ResNet-50 and SENet both learned from scratch reveals that SENet has a consistently superior performance on both verification and identification. […] In addition, the performance of SENet can be further improved by training on the two datasets VGGFace2 and MS1M, exploiting the different advantages that each offer."
+
+— [VGGFace2: A dataset for recognising faces across pose and age, ](https://arxiv.org/abs/1710.08092) 2017.
+
+A face embedding is predicted by a given model as a 2,048 length vector. The length of the vector is then normalized, e.g. to a length of 1 or unit norm using the L2 vector norm (Euclidean distance from the origin). This is referred to as the ‘face descriptor‘. The distance between face descriptors (or groups of face descriptors called a ‘subject template’) is calculated using the Cosine similarity.
+
+"The face descriptor is extracted from from the layer adjacent to the classifier layer. This leads to a 2048 dimensional descriptor, which is then L2 normalized."
+
+[VGGFace2: A dataset for recognising faces across pose and age, ](https://arxiv.org/abs/1710.08092) 2017.
+
+
+
 
 
 
