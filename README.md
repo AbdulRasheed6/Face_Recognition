@@ -7,6 +7,21 @@ It is a task that is trivially performed by humans, even under varying light and
 
 Deep learning methods are able to leverage very large datasets of faces and learn rich and compact representations of faces, allowing modern models to first perform as-well and later to outperform the face recognition capabilities of humans.
 
+"A general statement of the problem of machine recognition of faces can be formulated as follows: given still or video images of a scene, identify or verify one or more persons in the scene using a stored database of faces"
+
+— Face Recognition: A Literature Survey, 2003.
+
+Face recognition is often described as a process that first involves four steps; they are: face detection, face alignment, feature extraction, and finally face recognition.
+
+1. Face Detection. Locate one or more faces in the image and mark with a bounding box.
+2. Face Alignment. Normalize the face to be consistent with the database, such as geometry and photometrics.
+3. Feature Extraction. Extract features from the face that can be used for the recognition task.
+4. Face Recognition. Perform matching of the face against one or more known faces in a prepared database.
+5. 
+A given system may have a separate module or program for each step, which was traditionally the case, or may combine some or all of the steps into a single process.
+
+
+
 
 
 
