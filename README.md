@@ -226,6 +226,10 @@ vggface = VGGFace(model='senet50')
 - [Deep_Learning_for_face_recognition](https://machinelearningmastery.com/introduction-to-deep-learning-for-face-recognition/)
 - [Face recognition using tensorflow](https://github.com/davidsandberg/facenet/)
 
+### Limitatons
+
+Although VggFace2 was trained on millions of data , but to achieve a more robust model for our locality , our model needed to be trained on several local identities running into millions of data  
+
 ### Licence 
 
 - Check Oxford Webpage for the license of the original models.
